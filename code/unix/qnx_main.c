@@ -347,7 +347,7 @@ int Daisy_main ( void )
 #ifdef __QNXNTO__
 int main(int argc, char **argv)
 {
-    char cmdline[] = "+set sv_pure 0 +set vm_ui 0 +set vm_game 0 +set vm_cgame 0 +set fs_basepath ./app/native";
+    char cmdline[] = "+set sv_pure 0 +set vm_ui 0 +set vm_game 0 +set vm_cgame 0 +set fs_basepath /accounts/1000/shared/misc/quake3";
 	cvar_t		*cv = NULL;
 	char cmd_rundemo[100];
     Sys_SetDefaultCDPath("./app/native");
